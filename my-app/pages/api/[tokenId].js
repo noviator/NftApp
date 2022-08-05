@@ -1,4 +1,3 @@
-
 // Base URI + tokenId
 // BaseURI = https://example.com
 // tokenId = 1
