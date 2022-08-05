@@ -10,7 +10,7 @@ export default function handler(req, res) {
 
   const name = `MyNFT ${tokenId}`;
   const description = `A new NFT collection`;
-  const image =`https://raw.githubusercontent.com/noviator/NftApp/main/public/myNFT/${Number(tokenId)-1}.svg`;
+  const image =`https://raw.githubusercontent.com/noviator/NftApp/main/my-app/public/myNFT/${Number(tokenId)-1}.svg`;
 
   res.status(200).json({
     name: name,
